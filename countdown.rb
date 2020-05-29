@@ -11,7 +11,7 @@ end
 
 def countdown_with_sleep(time_left)
   time_left = 5
-  until time_left == 1
+  until time_left == 0
     "#{time_left} SECOND(S)!"
     time_left -= 1
     sleep 1
